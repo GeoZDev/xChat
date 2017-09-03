@@ -1,0 +1,21 @@
+---
+version: 1.4
+chat: enabled
+bad-words: message
+banned-word-message: "&cNon dire queste parole!"
+banned-word-kick: "/n&cNon dire queste parole!"
+clear-message: "&7La chat è stata ripulita da &e&l{PLAYER}"
+clear-message-player: "&aHai pulito la chat!"
+enable-chat-message: "&aHai abilitato la chat!"
+enable-chat-broadcast: "&7La chat è stata abilitata da &e&l{PLAYER}"
+disable-chat-message: "&aHai disabilitato la chat!"
+disable-chat-broadcast: "&7La chat è stata disabilitata da &e&l{PLAYER}"
+chat-disabled-message: "&cLa chat è disabilitata, non puoi parlare!"
+mute-message: "&e&l{PLAYER}&r&7 è stato mutato"
+player-mute-message: "&7Hai mutato &e&l{PLAYER}"
+unmute-message: "&e&l{PLAYER}&r&7 è stato smutato"
+unmute-all-message: "&7Tutti i players sono stati smutati!"
+player-unmute-message: "&7Sei stato smutato da &e&l{PLAYER}"
+muted-player-message: "&cSei stato mutato, non puoi parlare!"
+no-permission: "&cNon hai il permesso per utilizzare questo comando u.u!"
+...

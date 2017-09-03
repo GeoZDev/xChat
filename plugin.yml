@@ -1,0 +1,56 @@
+name: xChat
+author: Rysieeku
+version: 1.4
+main: Rysieeku\xChat\Main
+api: [3.0.0-ALPHA7]
+commands:
+  xchat:
+    description: Main command.
+    aliases: [c, chat]
+permissions:
+  xchat.*:
+    default: op
+    description: Allow to use every command
+    children:
+      xchat.clear:
+        default: op
+        description: Allow to use clear chat
+      xchat.enable:
+        default: op
+        description: Allow to enable chat
+      xchat.disable:
+        default: op
+        description: Allow to disable chat
+      xchat.mute:
+        default: op
+        description: Allow to mute player
+      xchat.unmute:
+        default: op
+        description: Allow to unmute player
+      xchat.unmuteall:
+        default: op
+        description: Allow to unmute all players
+      xchat.muted:
+        default: op
+        description: Allow to see list of muted players
+      xchat.words:
+        default: op
+        description: Allow to see list of blocked words
+      xchat.add:
+        default: op
+        description: Allow to add blocked word
+      xchat.remove:
+        default: op
+        description: Allow to remove blocked word
+      xchat.bypass:
+        default: op
+        description: Allow to bypass mute, blocked words and disabled chat
+      xchat.reload:
+        default: op
+        description: Allow to reload config file
+      xchat.info:
+        default: op
+        description: Allow to see plugin info
+      xchat.help:
+        default: op
+        description: Allow to see plugin help page
